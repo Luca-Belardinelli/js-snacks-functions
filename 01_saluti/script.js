@@ -5,14 +5,17 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function hello(name){
+function hello(name) {
+
     var hello = "Ciao" + " " + name;
+
     return hello
 }
 
 // Invoca la funzione qui e stampa il risultato in console
 
 let cordiale = hello(userName);
+
 console.log(cordiale);
 
 

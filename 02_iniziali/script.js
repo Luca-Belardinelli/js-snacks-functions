@@ -7,23 +7,23 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 function iniziali(nomi){
 
-    // variabile vuota flag
+    // variabile
 
     var storia = '';
 
-    // ciclo
+    //ciclo
 
     for( let i = 0 ; i < nomi.length ; i++ ){
 
-        // salvo nella variabile i singoli nomi della lista 
-        
+        //salvo nella variabile i nomi
+
         var cose = nomi[i];
          
-        // prima lettera dei nomi
+        //prima lettera dei nomi
 
         var iniziale = cose.charAt(0);
 
-        // inserisco nella variabile 
+        //inserisco nella variabile 
 
         storia = `${storia} "${iniziale}",`;
         
